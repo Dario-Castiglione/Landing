@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset='utf-8'>
+    <title>La nostra Bakery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='all' href='css/normalize.css'>
+    <link rel='stylesheet' type='text/css' media='all' href='css/common.css'>
+    
+</head>
+<body>
+    <!--HEADER-->
+        <header>
+            <img src="img/logo.png" width="150" height="150" alt="Bakery">
+        </header>
+
+    <!--HERO-->
+        <div id="hero">
+            <picture>
+                <source media="(min-width: 991px)" srcset="img/top-d.jpg">
+                <img src="img/top-m.jpg" alt="bakery" width="700" height="700">            
+            </picture>    
+            </div>
+
+    <!--TESTO-->
+        <div id="testo" class="padding10050">
+            <h1>Benvenuti su Bakery</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate voluptatibus repudiandae molestias recusandae laboriosam alias quam a! Exercitationem velit molestias maiores? Magnam fugiat quasi illum. Tenetur facere dolorum commodi!
+            </p>
+            
+            <a href="#form" class="pulsante">
+                Contattaci
+            </a>
+
+        </div>
+            
+    <!--VANTAGGI-->
+        <div id="vantaggi" class="padding10050">
+
+            <div class="flex-container">
+
+                <div class="flex-item">
+                    <h2>Vantaggio 1</h2>
+                    <p>Questo è il blocco vantaggi numero uno con il suo testo</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Vantaggio 2</h2>
+                    <p>Questo è il blocco vantaggio numero due con il suo testo</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    <!--FORM-->
+    <div id="form">
+        <h2>Contattaci</h2>
+        <form id="mioform" name="mioform" action="#">
+            <div class="flex-form">
+                <div class="inputDiv">
+                    <label for="seleziona">Seleziona *</label>
+                    <select name="seleziona" id="seleziona" required>
+                        <option value="">Scelta 1</option>    
+                        <option value="commerciale">Scelta 2</option>
+                        <option value="sviluppo">Scelta 3</option>
+                    </select>
+                </div>
+                <div class="inputDiv">
+                    <label for="nome">Nome *</label>
+                    <input type="text" name="nome" id="nome" placeholder="Scrivi qui il tuo nome" required >        
+                </div>
+                <div class="inputDiv">
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" id="email" placeholder="Scrivi qui la tua email" required >
+                </div>
+                <div class="textareaDiv">
+                    <label for="testoForm">Messaggio *</label>
+                    <textarea name="testoForm" id="testoForm" placeholder="Scrivi qui il tuo messaggio"></textarea>    
+                </div>
+                <div class="radioDiv">
+                    <p>Accetto la privacy</p>
+                    <label for="edit-privacy-si">Sì</label>
+                    <input type="radio" id="edit-privacy-si" name="privacy" value="si" checked /> 
+
+                    <label for="edit-privacy-no">No</label>
+                    <input type="radio" id="edit-privacy-no" name="privacy" value="no" /> 
+                </div>
+                <div class="inputDiv">
+                    <input type="submit" id="submit" name="submit" value="Invia" class="pulsante">
+                </div>
+            </div>
+        </form>        
+    </div>    
+
+
+    </div>
+    <!--FOOTER-->
+        <footer class="padding10050">
+            <p>
+                Edgemony P.iva 12345678901 - Credits by <a href="https://www.linkedin.com/in/dario-castiglione-26230b180/" target="_blank">Dario Castiglione</a>
+            </p>
+        </footer> 
+
+</body>
+</html>
